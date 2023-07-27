@@ -1,0 +1,36 @@
+.git is folder provided by git 
+to save the history 
+we can get it by using
+git init
+ git 
+git status is used wheter which files are untracked
+git add is used to get file on stage to make it commited
+if we want to remove it from stage
+use git restore --staged git.txt
+git commit is used to save the changes
+ls -a is used to see hidden files
+vim git.txt commands open text ediotor
+cat command dispaly content in file
+
+git log is used to cheack when we updated with commit id is provided
+
+if by miskte we delete file and want to get it back 
+then do
+git log
+
+take commit id at whcih due want to return
+and write git reset (commit id)
+
+sometime you write java code and you want to add some few lines
+and put your past code to someware without commiting it and then write that line
+so we use
+git stash 
+for that
+now we want that code again so we use
+git stash pop
+
+and if you dont need that code
+git stash clear
+
+
+
